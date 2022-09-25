@@ -2,6 +2,8 @@
 <div>
   <h1>Hello this is index page.<br/>Please press link to pages that introduce how to use content page in nuxt3</h1>
   <NuxtLink to="/blog">to Blog</NuxtLink>
+  <br/>
+  <NuxtLink to="/posts">to posts with types </NuxtLink>
 </div>
 </template>
 
@@ -13,6 +15,7 @@ export default {
 
 <style scoped>
 a {
+  display: block;
   font-size: 28px;
   background: #f1b0b7;
   color: #0b2e13;
